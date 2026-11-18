@@ -133,7 +133,7 @@ def plot_external_examples(rows: pd.DataFrame, test_dir, model, meta, device, ou
 
 def evaluate_s2looking(s2_root, results_dir, *, max_pairs=None, batch_size=8,
                        min_positive_pixels=15, make_examples=True):
-    """Проверяет ВСЕ пиксели S2Looking Test и дополнительную выборку патчей >=15.
+    """Проверяет все пиксели S2Looking Test и дополнительную выборку патчей >=15.
 
     Не удаляет пустые участки из основной оценки. Сохраняет исходные
     названия cross_dataset_comparison.csv и external_examples.png.
