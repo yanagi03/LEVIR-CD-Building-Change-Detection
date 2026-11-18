@@ -1,0 +1,10 @@
+# Зависимости Python-модулей проекта (src/)
+# Точные версии для воспроизводимости можно зафиксировать по рабочей среде Colab.
+torch
+numpy
+pandas
+matplotlib
+opencv-python-headless
+tqdm
+# Для отображения результатов в исходных блокнотах Jupyter/Colab
+ipython
